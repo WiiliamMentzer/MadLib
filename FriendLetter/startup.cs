@@ -32,6 +32,7 @@ namespace FriendLetter
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
 
+      app.UseDeveloperExceptionPage();
 
       //Unneeded to run configure, Just there to test if Configure is working properly.
 
